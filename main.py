@@ -32,7 +32,7 @@ class Login:
         self.Login_name = self.Lname.get()
         self.Login_pass = self.Lpass.get()
 
-        if (self.Login_name == "neeraj" and self.Login_pass == "password"):
+        if (self.Login_name == "resham" and self.Login_pass == "password"):
             top1=Toplevel(self.root)
             obj1=admin_page(top1)
         elif (self.Login_name=='' and self.Login_pass=='') :
